@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html style="background-color: rgb(20, 19, 19);">
+    <head>
+        <meta name="viewport" content="with=device-width, initial scale=1.0">
+        <title> Cloudy </title>
+        <link rel="stylesheet" href="style (1).css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Sulphur+Point&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<section class="head">
+<nav>
+    <a href="index.html"><img src="images/rlogo-removebg-preview.png"> Cloudy</a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="genre.html">Genre</a></li>
+            <li><a href="cloudy.html">Hot Novels</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+    <!--<h1>Cloudy</h1>-->
+   <!---<p>Experience a life changing novels here.<br><br>A website that will fulfill your taste and desires in reading.</p>-->
+    <br><h1 style="margin-bottom: 300px;"> GENRE </h1></br>
+</div>
+
+
+<section class="genre">
+    <!--<h1 style="font-family: 'Times New Roman';">The Hot Novels</h1>-->
+    
+    <div class="row">
+        <div class="campus-col">
+           
+            <img src="images/BLUE.png">
+            <div class="layer">
+                <h3 style="color: white;" >SCI-FI</h3>
+                <a href="birthday.html">SCI-FI</a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/BLUE.png">
+            <div class="layer">
+                <h3 style="color: white;">HORROR</h3>
+               <a href="blind.html">HORROR</a>
+            </div>
+        </div>	
+        <div class="campus-col">
+            <img src="images/BLUE.png">
+            <div class="layer">
+                <h3 style="color: white;">DRAMA</h3>
+                <a href="Obligation.html"> DRAMA</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/BLUE.png">
+            <div class="layer">
+                <h3 style="color: white;">COMEDY</h3>
+            <a href="threegirls.html">COMEDY</a>	
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/BLUE.png">
+            <div class="layer">
+                <h3 style="color: white;">MYSTERY</h3>
+            <a href="ghost.html">MYSTERY</a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/BLUE.png">
+            <div class="layer">
+                <h3 style="color: white;">ROMANCE</h3>
+            <a href="sunmoon.html">ROMANCE</a>
+            </div>
+        </div>
+    </div>
+    </section>
+</section>
+<!-------- JavaScript for Toggle Menu -------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
+</script>
+
+    </body>
+</html>     
+
+
+	
+	
